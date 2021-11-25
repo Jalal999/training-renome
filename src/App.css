@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+
+:root {
+    --clr-primary-1: hsl(207, 73%, 3%);
+    --clr-primary-2: hsl(210, 61%, 3%);
+    --clr-primary-3: hsl(210, 51%, 3%);
+    --clr-primary-4: hsl(210, 43%, 3%);
+    --clr-primary-5: hsl(204, 36%, 5%);
+
+    --clr-black: #222;
+    --clr-white: rgb(255, 255, 255);
+    --clr-aHover: rgb(228, 54, 24);
+
+
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--clr-white);
+    line-height: 1.5;
+    font-size: 0.875rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+    list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 0.875rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    color: var(--clr-primary-1);
 }

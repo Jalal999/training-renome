@@ -1,0 +1,104 @@
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
+
+.nav__center {
+  &__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &__logo {
+      height: 40px;
+    }
+
+    &__icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+
+      &__toggle{
+        font-size: 1.5rem;
+        color: var(--clr-primary-5);
+        background: transparent;
+        border-color: transparent;
+        transition: var(--transition);
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px;;
+
+        &--cart{
+
+        }
+
+        &--hamburger{
+
+        }
+      }
+
+      &__toggle:hover{
+        color: var(--clr-primary-1);
+      }
+
+    }
+  }
+
+  &__links__container {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+
+    &--show {
+      height: 10rem;
+    }
+
+    &__ul a{
+      color: var(--clr-primary-1);
+      font-size: 1rem;
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: var(--transition);
+    }
+
+    &__ul a:hover{
+      color: var(--clr-aHover);
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__cart__container {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    transition: var(--transition);
+
+    &--show{
+      position: absolute;
+      right: 106px;
+      background-color: var(--clr-white);
+      height: 9rem;
+      width: 9rem;
+    }
+
+    &__ul a{
+      color: var(--clr-primary-1);
+      font-size: 1rem;
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: var(--transition);
+    }
+
+    &__ul a:hover{
+      color: var(--clr-aHover);
+      padding-left: 1.5rem;
+    }
+  }
+
+}
