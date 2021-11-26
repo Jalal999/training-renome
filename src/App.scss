@@ -3,9 +3,10 @@
     --clr-black: #222;
     --clr-white: rgb(255, 255, 255);
 
-    --clrBlack1: hsl(207, 73%, 3%);
-    --clrBlack2: hsl(210, 61%, 3%);
-    --clrBlack3: hsl(210, 51%, 3%);
+    --clr-black-pearl: hsl(207, 73%, 3%);
+    --clr-ebony: hsl(210, 51%, 3%);
+    --clr-tiber: hsl(210, 61%, 13%);
+    
 
     --clr-aHover: rgb(228, 54, 24);
     --transitionLinear: all 0.3s linear;
@@ -17,17 +18,15 @@
     --fixed-width: 620px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: -apple-system, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--clr-white);
     line-height: 1.5;
     font-size: 0.875rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 ul {

@@ -3,21 +3,27 @@
     position: absolute;
     right: 106px;
     background-color: var(--clr-white);
-    height: 9rem;
-    width: 9rem;
+    height: 10rem;
+    width: 10rem;
 
-    &__ul a{
-      color: var(--clr-primary-1);
-      font-size: 1rem;
-      text-transform: capitalize;
-      letter-spacing: var(--spacing);
-      display: block;
-      padding: 0.5rem 1rem;
-      transition: var(--transitionLinear);
-    }
+    &__ul {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 
-    &__ul a:hover{
-      color: var(--clr-aHover);
-      padding-left: 1.5rem;
+      & a {
+        color: var(--clr-black-pearl);
+        font-size: 1rem;
+        text-transform: capitalize;
+        letter-spacing: var(--spacing);
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: var(--transitionLinear);
+      }
+
+      & a:hover {
+        color: var(--clr-aHover);
+        padding-left: 1.5rem;
+      }
     }
   }

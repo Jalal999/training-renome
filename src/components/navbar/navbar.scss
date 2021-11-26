@@ -18,9 +18,9 @@
       justify-content: space-between;
       padding: 1rem;
 
-      &__toggle{
+      &__toggle {
         font-size: 1.5rem;
-        color: var(--clr-primary-5);
+        color: var(--clr-ebony);
         background: transparent;
         border-color: transparent;
         transition: var(--transitionLinear);
@@ -29,8 +29,8 @@
         margin-right: 5px;;
       }
 
-      &__toggle:hover{
-        color: var(--clr-primary-1);
+      &__toggle:hover {
+        color: var(--clr-black-pearl);
       }
 
     }
