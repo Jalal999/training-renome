@@ -1,15 +1,15 @@
 .nav__center {
-  background: var(--clr-white);
-  box-shadow: var(--light-shadow);
 
   &__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
 
     &__logo {
-      height: 40px;
+      height: 25px;
     }
 
     &__icons {
@@ -19,7 +19,7 @@
       padding: 1rem;
 
       &__toggle {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         color: var(--clr-ebony);
         background: transparent;
         border-color: transparent;
@@ -27,6 +27,7 @@
         cursor: pointer;
         margin-left: 5px;
         margin-right: 5px;;
+        
       }
 
       &__toggle:hover {
