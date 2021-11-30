@@ -1,0 +1,39 @@
+.nav__center {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &__logo {
+      height: 40px;
+    }
+
+    &__icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+
+      &__toggle {
+        font-size: 1.5rem;
+        color: var(--clr-ebony);
+        background: transparent;
+        border-color: transparent;
+        transition: var(--transitionLinear);
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px;;
+      }
+
+      &__toggle:hover {
+        color: var(--clr-black-pearl);
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,29 @@
+.nav__cart {
+    overflow: hidden;
+    position: absolute;
+    right: 106px;
+    background-color: var(--clr-white);
+    height: 10rem;
+    width: 10rem;
+
+    &__ul {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      & a {
+        color: var(--clr-black-pearl);
+        font-size: 1rem;
+        text-transform: capitalize;
+        letter-spacing: var(--spacing);
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: var(--transitionLinear);
+      }
+
+      & a:hover {
+        color: var(--clr-aHover);
+        padding-left: 1.5rem;
+      }
+    }
+  }
