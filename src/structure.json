@@ -51,20 +51,20 @@
       {
         "title": "Made with love",
         "subTitle": "for you",
-        "altTag": "eggs and chicken",
-        "path": "https://raw.githubusercontent.com/Hetachi/FrontEndTraining/master/visuals/Renome%20Template/!!!Mobile/One%20Page/images/carousel_img_1.png"
+        "altTag": "eggs and chicken",   
+        "path": "/carousel_img_1.png"
       },
       {
         "title": "Made with hate",
         "subTitle": "for myself",
         "altTag": "something more",
-        "path": "/assets/img/carousel_img_2.png"
+        "path": "/carousel_img_2.png"
       },
       {
         "title": "Oranges and laptops",
         "subTitle": "for everyone",
         "altTag": "oranges and laptops",
-        "path": "/assets/img/carousel_img_3.png"
+        "path": "/carousel_img_3.png"
       }
     ],
     "about": {

@@ -7,16 +7,15 @@
     &__container {
         display: flex;
         height: 100%;
-        width: 300%;
+        width: 100%;
 
         &__child {
             width: 100%;
-            
         }
 
         &__child img {
             width: 100%;
-            height: auto;
+            height: 100%;
         }
     }
 
@@ -26,7 +25,7 @@
         bottom: 160px;
         padding-left: 15px;
     
-        &--title {
+        &__title {
             font-size: 30px;
             font-family: 'Montserrat', sans-serif;
             color: var(--clr-white);
@@ -34,35 +33,13 @@
             margin: 0;
         }
 
-        &--subtitle {
+        &__subtitle {
             font-size: 22px;
             font-family: 'Montserrat', sans-serif;
             color: var(--clr-brown);
             letter-spacing: var(--spacing);
             margin: 0;
         }
-    }
-}
-
-.carousel__button {
-    display: flex;
-    justify-content: space-between;
-    width: 128px;
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
-
-    &--btn {
-        padding: 0;
-        cursor: pointer;
-        border: none;
-        background: transparent;
-    }
-
-    &--arrow {
-        color: var(--clr-white);
-        height: 56px;
-        width: 56px;
     }
 }
 
