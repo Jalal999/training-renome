@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './carousel.scss';
 import Structure from '../../structure.json';
-import Image from '../../assets/img/carousel_img_1.png';
-import SlideControl from './buttons/slideControl';
+import SlideControl from './buttons/SlideControl';
+import { BsArrowLeftSquare } from 'react-icons/bs';
+import { BsArrowRightSquare } from 'react-icons/bs';
 
 const Carousel = () => {
-    const [slides, setSlides] = useState(Structure['carousel']);
+    const [slides] = useState(Structure['carousel']);
     const [index, setIndex] = useState(0);
 
     const nextSlide = () => {
@@ -40,8 +41,8 @@ const Carousel = () => {
                 </div>
             </div>
 
-            <SlideControl navigateSlide={prevSlide} arrow={"left"}/>
-            <SlideControl navigateSlide={nextSlide} arrow={"right"}/>
+            <SlideControl navigateSlide={prevSlide} arrowDirection={"left"} Icon={BsArrowLeftSquare}/>
+            <SlideControl navigateSlide={nextSlide} arrowDirection={"right"}  Icon={BsArrowRightSquare}/>
         </div>
     );
 };

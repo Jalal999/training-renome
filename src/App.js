@@ -1,6 +1,6 @@
 import './App.scss';
-import Navbar from './components/navbar/navbar.js';
-import Carousel from './components/carousel/carousel';
+import Navbar from './components/navbar';
+import Carousel from './components/carousel';
 
 function App() {
   return (
