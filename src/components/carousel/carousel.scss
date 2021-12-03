@@ -1,0 +1,39 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+
+    &__container {
+        height: 100%;
+        width: 100%;
+
+        &__child img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    &__headings {
+        width: 100vw;
+        position: absolute;
+        bottom: 160px;
+        padding-left: 15px;
+    
+        &__title {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--clr-white);
+            letter-spacing: var(--spacing);
+            margin: 0;
+        }
+
+        &__subtitle {
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--clr-brown);
+            letter-spacing: var(--spacing);
+            margin: 0;
+        }
+    }
+}
+

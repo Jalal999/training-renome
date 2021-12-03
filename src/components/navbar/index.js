@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 import { BiDotsVertical } from 'react-icons/bi'
-import logo from '../../assets/images/Renome.svg';
-import Hamburger from './buttons/hamburger';
-import NavCart from './buttons/navCart';
+import logo from '../../assets/img/Renome.svg';
+import Hamburger from './buttons/Hamburger';
+import NavCart from './buttons/NavCart';
 import './navbar.scss';
 
 

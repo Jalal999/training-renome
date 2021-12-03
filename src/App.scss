@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/Montserrat-Bold.woff2') format('woff2');
+}
 
 :root {
     --clr-black: #222;
@@ -6,6 +12,7 @@
     --clr-black-pearl: hsl(207, 73%, 3%);
     --clr-ebony: hsl(210, 51%, 3%);
     --clr-tiber: hsl(210, 61%, 13%);
+    --clr-brown: #985e5b;
     
 
     --clr-aHover: rgb(228, 54, 24);
