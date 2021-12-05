@@ -1,0 +1,56 @@
+.about {
+
+    &__images {
+
+        &__one {
+            position: relative;
+            float: right;
+            top: 50px;
+            right: 20px;
+            width: 80%;
+            height: 70%;
+        }
+
+        &__two {
+            position: relative;
+            width: 80%;
+            height: 70%;
+            left: 20px;
+            top: 20px;
+        }
+    }
+
+    &__texts {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &__title {
+            font-size: 38px;
+            letter-spacing: 8px;
+            color: #1e2633;
+            font-family: "Axis";    
+            margin: 0;
+            margin-top: 60px;
+            text-transform: lowercase;
+        }
+    
+        &__subTitle {
+            font-size: 11px;
+            letter-spacing: 1px;
+            color: var(--clr-brown);
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+    
+        &__paragraph {
+            font-size: 12px;
+            letter-spacing: 2px;
+            line-height: 30px;
+            color: #404040;
+            font-weight: 400;
+            font-family: "Montserrat";
+        }
+    }
+    
+}
