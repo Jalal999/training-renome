@@ -77,22 +77,22 @@
       "subTitle": "More about us via photos",
       "galleryImages": [
         {
-          "path": "/assets/img/gallery_img_1.png"
+          "path": "/gallery_img_1.png"
         },
         {
-          "path": "/assets/img/gallery_img_2.png"
+          "path": "/gallery_img_2.png"
         },
         {
-          "path": "/assets/img/gallery_img_3.png"
+          "path": "/gallery_img_3.png"
         },
         {
-          "path": "/assets/img/gallery_img_4.png"
+          "path": "/gallery_img_4.png"
         },
         {
-          "path": "/assets/img/gallery_img_5.png"
+          "path": "/gallery_img_5.png"
         },
         {
-          "path": "/assets/img/gallery_img_6.png"
+          "path": "/gallery_img_6.png"
         }
       ]
     }
