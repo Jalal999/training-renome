@@ -14,7 +14,7 @@ const Gallery = () => {
 
             <div className="gallery__images">
                 {gallery.galleryImages.map((gallery, index) => {
-                    return ( <img src = {gallery['path']} key = {index} /> );
+                    return ( <img src={gallery['path']} key={index} /> );
                 })}
             </div>
         </div>
