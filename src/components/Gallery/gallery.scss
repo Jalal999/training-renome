@@ -1,0 +1,40 @@
+.gallery {
+    background-color: #f7f7f7;
+
+    &__texts {
+        text-align: center;
+        padding-top:50px;
+
+        & h1{
+            font-size: 38px;
+            letter-spacing: 8px;
+            color: #1e2633;
+            font-family: "Axis";
+            margin: 0;
+            text-transform: lowercase;
+        }
+
+        & h3{
+            font-size: 11px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #985e5b;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+            margin: 0;
+        }
+    }
+
+    &__images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        padding: 15px 15px 50px;
+        grid-gap: 15px;
+        
+        & img {
+            width: 100%;
+        }
+    }
+}
