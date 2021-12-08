@@ -10,9 +10,9 @@ const Contact = () => {
         <div className="contact">
             <h2 className="contact__title">follow us:</h2>
             <div className="contact__icons">
-                <TiSocialFacebookCircular className="contact__icons__icon" />
-                <TiSocialTwitterCircular className="contact__icons__icon" />
-                <TiSocialGooglePlusCircular className="contact__icons__icon" />
+                <a href="https://www.facebook.com/" target="_blank"><TiSocialFacebookCircular className="contact__icons__icon" /></a>
+                <a href="https://twitter.com/" target="_blank"><TiSocialTwitterCircular className="contact__icons__icon" /></a>
+                <a href="https://www.google.com/" target="_blank"><TiSocialGooglePlusCircular className="contact__icons__icon" /></a>
             </div>
             <img src={logo} className="contact__logo"/>
             <h3 className="contact__copyright">copyright 2021 renome by estetiq</h3>
