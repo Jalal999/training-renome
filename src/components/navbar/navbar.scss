@@ -4,22 +4,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 10px 0;
     box-sizing: border-box;
     position: relative;
 
     &__logo {
-      height: 25px;
+      height: 20px;
+      padding-left: 5px;
     }
 
     &__icons {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1rem;
+      padding: 10px 0;
 
       &__toggle {
-        font-size: 0.8rem;
+        font-size: 13px;
         color: var(--clr-ebony);
         background: transparent;
         border-color: transparent;

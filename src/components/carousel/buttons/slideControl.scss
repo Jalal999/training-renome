@@ -1,8 +1,6 @@
-
 .carousel__navigation {
     display: flex;
     justify-content: space-between;
-    width: 128px;
     position: absolute;
     bottom: 50px;
     left: 20px;
@@ -14,8 +12,8 @@
 
         &__arrow {
             color: var(--clr-white);
-            height: 56px;
-            width: 56px;
+            height: 55px;
+            width: 55px;
             
             &--left {
                 cursor: pointer;

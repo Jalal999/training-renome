@@ -2,7 +2,7 @@ import React from 'react';
 import './navCart.scss';
 
 const NavCart = () => {
-    
+
     return (
         <div className='nav__cart'>
             <ul className='nav__cart__ul'>

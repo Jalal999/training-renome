@@ -1,29 +1,32 @@
 .nav__cart {
     overflow: hidden;
     position: absolute;
-    right: 106px;
+    right: 45px;
+    top: 60px;
     background-color: var(--clr-white);
-    height: 10rem;
-    width: 10rem;
+    height: 120px;
+    width: 120px;
+    z-index: 10;
 
     &__ul {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      text-align: center;
 
       & a {
         color: var(--clr-black-pearl);
-        font-size: 1rem;
-        text-transform: capitalize;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
         letter-spacing: var(--spacing);
         display: block;
-        padding: 0.5rem 1rem;
+        padding: 10px;
         transition: var(--transitionLinear);
       }
 
       & a:hover {
         color: var(--clr-aHover);
-        padding-left: 1.5rem;
       }
     }
   }
