@@ -12,7 +12,7 @@
       width: 100%;
 
       &--menu {
-        height: 33rem;
+        height: 510px;
       }
 
       &--subMenu {
@@ -65,7 +65,7 @@
 
       & a {
         color: var(--clr-black-pearl);
-        letter-spacing: var(--spacing);
+        letter-spacing: 2px;
         display: block;
         padding: 10px 0;
         transition: var(--transitionLinear);
