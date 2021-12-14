@@ -5,6 +5,13 @@
     src: url('/assets/fonts/Montserrat-Bold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Axis';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/Axis.woff2') format('woff2');
+}
+
 :root {
     --clr-black: #222;
     --clr-white: rgb(255, 255, 255);
